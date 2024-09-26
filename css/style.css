@@ -199,3 +199,52 @@ body {
     margin-top: 10px;
     color: #f05f40;
 }
+
+/* Styling the Monthly Favorites Container */
+.monthly-favorites-container {
+    background-color: #f4f4f9; 
+    padding: 50px 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+/* Section Title Styling */
+.monthly-favorites-container h2 {
+    font-family: 'Georgia', serif; 
+    color: #333; 
+    margin-bottom: 30px; 
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+}
+
+/* Table Styling */
+.table {
+    border-radius: 8px; 
+    overflow: hidden; 
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+/* Table Header Styling */
+.table thead {
+    background-color: #df4929; 
+    color: white; 
+    text-transform: uppercase; 
+    letter-spacing: 1px;
+}
+
+/* Table Body Styling */
+.table tbody tr {
+    background-color: white;
+    transition: background-color 0.3s ease; 
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f9f9f9; 
+}
+
+.table tbody tr:hover {
+    background-color: #e9ecef;
+}
